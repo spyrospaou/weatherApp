@@ -42,15 +42,15 @@
       <hr class="hrStyle">
       <v-row class="mt-5">
         <v-col class="box-w mx-3">
-          <h2>{{ weather.feels_like }} &#8451;</h2>
+          <h3>{{ weather.feels_like }} &#8451;</h3>
           <span>Feels like</span>
         </v-col>
         <v-col class="box-w mx-3">
-          <h2>{{ weather.wind_speed }} <small>m/s</small></h2>
+          <h3>{{ weather.wind_speed }} <small>m/s</small></h3>
           <span>Wind</span>
         </v-col>
         <v-col class="box-w mx-3">
-          <h2>{{ weather.wind_gust }} <small>m/s</small></h2>
+          <h3>{{ weather.wind_gust }} <small>m/s</small></h3>
           <span>Wind Gust</span>
         </v-col>
       </v-row>
